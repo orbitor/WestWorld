@@ -8,8 +8,6 @@
 
 #import "LGFState.h"
 
-@class LGFEntityMiner;
-
 @interface LGFStateMinerEnterMineAndDigNuggets : LGFState
 
 @end

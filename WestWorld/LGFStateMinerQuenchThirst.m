@@ -37,7 +37,7 @@
 
 - (void) exit:(LGFEntityMiner *)miner
 {
-    NSLog(@"Leaving the saloon. Where did my pants make off to?");
+    NSLog(@"Miner: Leaving the saloon. Where did my pants make off to?");
 }
 
 @end

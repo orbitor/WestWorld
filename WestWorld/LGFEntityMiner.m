@@ -8,6 +8,7 @@
 
 #import "LGFEntityMiner.h"
 #import "LGFState.h"
+#import "LGFStateMinerGoHomeAndSleepUntilRested.h"
 
 static const int GoldComfortThreshold = 5;
 static const int CarriedNuggestsThreshold = 3;
@@ -38,7 +39,7 @@ static const int TirednessThreshold = 5;
     [self setFatigueLevel:0];
     
     /*TODO: set a real state once we have them filled in */
-    currentState = nil;
+    currentState = [[LGFStateMinerGoHomeAndSleepUntilRested alloc] init];
     
     return self;
 }
